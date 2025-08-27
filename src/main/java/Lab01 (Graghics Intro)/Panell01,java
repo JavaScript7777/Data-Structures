@@ -18,13 +18,16 @@ import java.awt.Font;
  * <\pre>
  * 
  * @author  JavaScript7777
- * @version v0.01 - untested
+ * @version v0.02 - untested
  * @see     Constants
+ * @since   v0.01 - untested
  */
 public class Panel01 {
 
     /**
      * Sole constructor used for creating the panel
+     * 
+     * @since v0.01 - untested
      */
     public Panel00() {
 
@@ -34,28 +37,28 @@ public class Panel01 {
 
             // Label for north
         JLabel north = new JLabel("North");
-        north.setForeground(Color.RED);
+        north.setForeground(Constants.NORTH_COLOR);
         add(north, BorderLayout.NORTH);
 
             // Label for east
         JLabel east = new JLabel("East");
-        east.setForeground(Color.CYAN);
+        east.setForeground(Constants.EAST_COLOR);
         add(east, BorderLayout.EAST);
 
             // Label for south
         JLabel south = new JLabel("south");
-        south.setForeground(Color.BLACK);
+        south.setForeground(Constants.SOUTH_COLOR);
         add(south, BorderLayout.SOUTH);
         
             // Label for west
         JLabel west = new JLabel("west");
-        west.setForeground(Color.MAGENTA);
+        west.setForeground(Constants.WEST_COLOR);
         add(west, BorderLayout.WEST);
 
             // Label for center
         JLabel center = new JLabel("Center");
-        center.setForeground(Color.GREEN);
-        center.setFont("Helvetica", Font.PLAIN, 26);
+        center.setForeground(CONSTANTS.CENTER_COLOR);
+        center.setFont(Constants.CENTER_FONT);
         add(center, BorderLayout.CENTER);
 
     }
