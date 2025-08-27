@@ -1,0 +1,63 @@
+import javax.swing.JPanel;
+import javax.swing.JLabel;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Font;
+
+/**
+ * Creates a panel that has each section: north, west, east
+ * south, and, center; labeled in different colors
+ * <p>
+ * <pre>
+ *     North  - Red
+ *     West   - Pink
+ *     South  - Black
+ *     East   - Dark green
+ *     Center - Green      - size 26 - Helvitica
+ * <\pre>
+ * 
+ * @author  JavaScript7777
+ * @version v0.01 - untested
+ * @see     Constants
+ */
+public class Panel01 {
+
+    /**
+     * Sole constructor used for creating the panel
+     */
+    public Panel00() {
+
+            // Prepare panel
+        setBounds(Constants.CONTENT_PANE_AREA);
+        setLayout(new BorderLayout());
+
+            // Label for north
+        JLabel north = new JLabel("North");
+        north.setForeground(Color.RED);
+        add(north, BorderLayout.NORTH);
+
+            // Label for east
+        JLabel east = new JLabel("East");
+        east.setForeground(Color.CYAN);
+        add(east, BorderLayout.EAST);
+
+            // Label for south
+        JLabel south = new JLabel("south");
+        south.setForeground(Color.BLACK);
+        add(south, BorderLayout.SOUTH);
+        
+            // Label for west
+        JLabel west = new JLabel("west");
+        west.setForeground(Color.MAGENTA);
+        add(west, BorderLayout.WEST);
+
+            // Label for center
+        JLabel center = new JLabel("Center");
+        center.setForeground(Color.GREEN);
+        center.setFont("Helvetica", Font.PLAIN, 26);
+        add(center, BorderLayout.CENTER);
+
+    }
+
+}
