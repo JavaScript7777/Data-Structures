@@ -21,11 +21,11 @@ public class Driver01 {
     public static void main(String[] args) {
 
             // Create the frame
-        JFrame frame = new Frame(Constants.FRAME_TITLE);
+        JFrame frame = new JFrame(Constants.FRAME_TITLE);
         frame.getContentPane().setPreferredSize(Constants.FRAME_SIZE);
         frame.pack();
         frame.setLocation(Constants.FRAME_LOCATION);
-        frame.add(new Panel00());
+        frame.add(new Panel01());
         frame.setVisible(Constants.FRAME_VISIBILITY);
 
     }

@@ -58,7 +58,7 @@ public class Panel01 extends JPanel {
 
             // Label for center
         JLabel center = new JLabel(Constants.CENTER_LABEL_NAME, SwingConstants.CENTER);
-        center.setForeground(CONSTANTS.CENTER_COLOR);
+        center.setForeground(Constants.CENTER_COLOR);
         center.setFont(Constants.CENTER_FONT);
         add(center, BorderLayout.CENTER);
 

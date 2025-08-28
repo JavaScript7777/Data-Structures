@@ -150,6 +150,6 @@ public class Constants {
      * 
      * @since v0.02 - untested
      */
-    public static final FONT CENTER_FONT = new Font(CENTER_FONT_NAME, CENTER_FONT_STYLE, CENTER_FONT_SIZE);
+    public static final Font CENTER_FONT = new Font(CENTER_FONT_NAME, CENTER_FONT_STYLE, CENTER_FONT_SIZE);
 
 }
