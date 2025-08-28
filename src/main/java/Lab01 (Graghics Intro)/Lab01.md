@@ -9,6 +9,9 @@ Changes made between updates, update names with
 "- untested", are changes made over online editors,
 was unable to be tested
 
+### [v1.0] -- 8-28-2025
+- Fully tested v0.04
+
 ### [v0.04 - partially tested] -- 8-28-2025
 - Completed Code Transfer
 - For testing

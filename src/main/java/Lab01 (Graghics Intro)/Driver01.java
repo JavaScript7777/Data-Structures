@@ -5,7 +5,7 @@ import javax.swing.JFrame;
  * center, in their corresponding locations on the window
  * 
  * @author  JavaScript7777
- * @version v0.03 - untested
+ * @version v1.0
  * @see     Constants
  * @see     Panel00
  * @since   v0.01 - untested
