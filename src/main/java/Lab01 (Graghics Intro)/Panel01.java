@@ -19,7 +19,7 @@ import java.awt.Font;
  * <\pre>
  * 
  * @author  JavaScript7777
- * @version v1.0
+ * @version v1.01
  * @see     Constants
  * @since   v0.01 - untested
  */

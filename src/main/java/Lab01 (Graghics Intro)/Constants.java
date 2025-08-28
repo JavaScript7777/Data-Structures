@@ -8,7 +8,7 @@ import java.awt.Font;
  * Any universal constants used by either, Driver00 or Panel00
  * 
  * @author  JavaScript7777
- * @version v1.0
+ * @version v1.01
  * @see     Driver00
  * @see     Panel00
  * @since   v0.01 - untested
