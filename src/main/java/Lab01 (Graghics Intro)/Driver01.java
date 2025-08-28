@@ -5,7 +5,7 @@ import javax.swing.JFrame;
  * center, in their corresponding locations on the window
  * 
  * @author  JavaScript7777
- * @version v0.02 - untested
+ * @version v0.03 - untested
  * @see     Constants
  * @see     Panel00
  * @since   v0.01 - untested
@@ -21,12 +21,12 @@ public class Driver01 {
     public static void main(String[] args) {
 
             // Create the frame
-        JFrame frame = new Frame("Lab 01");
+        JFrame frame = new Frame(Constants.FRAME_TITLE);
         frame.getContentPane().setPrefferedSize(Constants.FRAME_SIZE);
         frame.pack();
         frame.setLocation(Constants.FRAME_LOCATION);
         frame.add(new Panel00());
-        frame.setVisible(true);
+        frame.setVisible(Constants.FRAME_VISIBILITY);
 
     }
 

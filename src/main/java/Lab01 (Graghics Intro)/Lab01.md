@@ -1,21 +1,32 @@
 # Lab01
 This lab was an introduction to java swing, the goal
 was to create a JFrame, with a JPanel that has a
-BorderLayout. in the north, west, east, south, and
-center, label them with specific colors
+BorderLayout. Label the north, west, east, south, and
+center, with section name and specific colors
 
 ## Change Log
 Changes made between updates, update names with
 "- untested", are changes made over online editors,
 was unable to be tested
 
+### [v0.03 - untested] -- 8-27-2025
+- Frame Constants Update
+- Added:   Constants for frame title
+- Added:   Constants for frame visibility
+- Updated: Panel01.java with old constants
+- Updated: Driver01.java with new frame constants
+- Issue:   Constants for label names, resolved
+
 ### [v0.02 - untested] -- 8-27-2025
+- Color Constants Update
 - Added:      More constants to Constants.java
 - Added:      Comment for code snippet to Driver01.java
 - Updated:    Panel01.java with new constants
+- Issue:      Constants for label names not linked
 - Bug Update: Improved (possibly fixed) to east label color, now dark green
 
 ### [v0.01 - untested] -- 8-27-2025
+- Initial program
 - Added: Driver01.java, frame with panel
 - Added: Panel01.java, panel with labels
 - Added: Constants.java, points and content pane information
