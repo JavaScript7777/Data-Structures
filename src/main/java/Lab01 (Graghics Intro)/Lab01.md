@@ -9,6 +9,13 @@ Changes made between updates, update names with
 "- untested", are changes made over online editors,
 was unable to be tested
 
+### [v0.04 - partially tested] -- 8-28-2025
+- Completed Code Transfer
+- For testing
+- Added:   extends to Panel01.java
+- Added:   java.awt.Color import
+- Bug Fix: Labels are centered
+
 ### [v0.03 - untested] -- 8-27-2025
 - Frame Constants Update
 - Added:   Constants for frame title
@@ -23,11 +30,13 @@ was unable to be tested
 - Added:      Comment for code snippet to Driver01.java
 - Updated:    Panel01.java with new constants
 - Issue:      Constants for label names not linked
-- Bug Update: Improved (possibly fixed) to east label color, now dark green
+- Bug:        Labels not centered
+- Bug Fix:    Improved to east label color, now dark green
 
 ### [v0.01 - untested] -- 8-27-2025
 - Initial program
 - Added: Driver01.java, frame with panel
 - Added: Panel01.java, panel with labels
 - Added: Constants.java, points and content pane information
+- Bug:   Labels not centered
 - Bug:   East label is the wrong color (temporary)

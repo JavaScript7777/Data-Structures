@@ -22,7 +22,7 @@ public class Driver01 {
 
             // Create the frame
         JFrame frame = new Frame(Constants.FRAME_TITLE);
-        frame.getContentPane().setPrefferedSize(Constants.FRAME_SIZE);
+        frame.getContentPane().setPreferredSize(Constants.FRAME_SIZE);
         frame.pack();
         frame.setLocation(Constants.FRAME_LOCATION);
         frame.add(new Panel00());
