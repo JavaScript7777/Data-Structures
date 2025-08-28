@@ -14,6 +14,7 @@ was unable to be tested
 - For testing
 - Added:   extends to Panel01.java
 - Added:   java.awt.Color import
+- Changed: Fixed Panell01,java name
 - Bug Fix: Labels are centered
 
 ### [v0.03 - untested] -- 8-27-2025
